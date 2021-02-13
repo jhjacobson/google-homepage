@@ -3,39 +3,51 @@
 
 <head>
     <link rel="stylesheet" href="main.css">
+    <title>Google Copy</title>
 </head>
+
 <body>
 
-<ul>
-<li style="float:left;"><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
-<li style="float:left;"><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
-<li style="float:right;"><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
-<li style="float:right;"><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
-</ul>
-
-<div class="content">
-<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-
-<br>
-<input type="text" id="search" name="search" class="search" />
-
-<br><br>
-<button type="button">Google Search</button> <button type="button">I'm Feeling Lucky</button>
-</div>
-
-
-
-<footer class="footer">
     <ul>
-    <li style="float:left;">Advertising</li>
-    <li style="float:left;">Business</li>
-    <li style="float:left;">How Search works</li>
-    <li style="float:right;">Privacy</li>
-    <li style="float:right;">Terms</li>
-    <li style="float:right;">Settings</li>
-    </ul>    
-</footer>
-    
+        <div class="left">
+            <li><a href="https://about.google/">About</a></li>
+            <li><a href="https://store.google.com/">Store</a></li>
+        </div>
+        <div class="right">
+            <li><a href="https://mail.google.com/mail/">Gmail</a></li>
+            <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+        </div>
+    </ul>
+
+    <div id="content">
+        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+
+        <form action="https://www.google.com/search" method="GET">
+            <input type="text" id="search" name="q" />
+            <div id="buttons">
+                <input class="button" type="submit" name="btnA" value="Google Search">
+                <input class="button" type="submit" name="btnB" value="I am Feeling Lucky">
+            </div>
+        </form>
+    </div>
+
+
+
+    <footer id="footer">
+        <ul>
+            <div class="left">
+                <li><a href="https://ads.google.com/">Advertising</a></li>
+                <li><a href="https://smallbusiness.withgoogle.com/">Business</a></li>
+                <li><a href="https://www.google.com/search/howsearchworks/">How Search works</a></li>
+            </div>
+            <div class="right">
+                <li><a href="https://policies.google.com/privacy">Privacy</a></li>
+                <li><a href="https://policies.google.com/terms">Terms</a></li>
+                <li>Settings</li>
+            </div>
+        </ul>
+    </footer>
+
 
 </body>
 
