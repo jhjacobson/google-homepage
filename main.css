@@ -2,7 +2,7 @@ body {
     font-family: arial;
 }
 
-#content {
+main {
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -50,7 +50,7 @@ a:hover {
     text-decoration: underline;
 }
 
-#buttons {
+#search-buttons {
     display: flex;
     flex-direction: row;
     margin: 15px 20px 20px 5px;
@@ -81,7 +81,7 @@ a:hover {
     float: left;
 }
 
-#footer {
+footer {
     bottom: 0;
     display: flex;
     justify-content: space-evenly;
@@ -93,11 +93,11 @@ a:hover {
     color: #70757a;
 }
 
-#footer a {
+footer a {
     text-decoration: none;
     color: #70757a;
 }
 
-#footer a:hover {
+footer a:hover {
     text-decoration: underline;
 }

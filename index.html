@@ -3,37 +3,39 @@
 
 <head>
     <link rel="stylesheet" href="main.css">
-    <title>Google Copy</title>
+    <title>Google Homepage Recreation</title>
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul>
+                <div class="left">
+                    <li><a href="https://about.google/">About</a></li>
+                    <li><a href="https://store.google.com/">Store</a></li>
+                </div>
+                <div class="right">
+                    <li><a href="https://mail.google.com/mail/">Gmail</a></li>
+                    <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
 
-    <ul>
-        <div class="left">
-            <li><a href="https://about.google/">About</a></li>
-            <li><a href="https://store.google.com/">Store</a></li>
-        </div>
-        <div class="right">
-            <li><a href="https://mail.google.com/mail/">Gmail</a></li>
-            <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
-        </div>
-    </ul>
-
-    <div id="content">
+    <main>
         <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-
         <form action="https://www.google.com/search" method="GET">
             <input type="text" id="search" name="q" />
-            <div id="buttons">
+            <div id="search-buttons">
                 <input class="button" type="submit" name="btnA" value="Google Search">
                 <input class="button" type="submit" name="btnB" value="I am Feeling Lucky">
             </div>
         </form>
-    </div>
+    </main>
 
 
 
-    <footer id="footer">
+    <footer>
         <ul>
             <div class="left">
                 <li><a href="https://ads.google.com/">Advertising</a></li>
